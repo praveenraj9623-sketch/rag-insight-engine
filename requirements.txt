@@ -1,0 +1,11 @@
+streamlit
+streamlit-mic-recorder
+gtts
+google-generativeai
+langchain
+langchain-community
+langchain-huggingface
+faiss-cpu
+pypdf
+sentence-transformers
+streamlit-mic-recorder
