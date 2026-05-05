@@ -2,6 +2,9 @@ streamlit
 pandas
 numpy
 
+pypdf
+pymupdf
+
 langchain
 langchain-community
 langchain-core
@@ -13,7 +16,6 @@ torch
 torchvision
 
 google-generativeai
-pymupdf
 gtts
 python-dotenv
 streamlit-mic-recorder
