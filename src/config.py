@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-GEMINI_API_KEY = os.getenv("AIzaSyDb34xJOmW3X6IIdfBeRx2lOWEkhIRkgYk")
+GEMINI_API_KEY = os.getenv("AIzaSyB4v1Cpz4KHTSva3dthpIwgL6qe7pcRR6g")
 
 # Keep everything else SAME if already exists
 CHUNK_SIZE = 500

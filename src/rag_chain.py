@@ -25,7 +25,7 @@ def keyword_search_all_chunks(vector_store, question):
     return matched_docs
 
 
-def retrieve_docs_with_scores(vector_store, question, k=6):
+def retrieve_docs_with_scores(vector_store, question, k=4):
     keyword_docs = keyword_search_all_chunks(vector_store, question)
 
     if keyword_docs:
@@ -70,7 +70,7 @@ Content:
     return context
 
 
-def answer_question(vector_store, question, k=6):
+def answer_question(vector_store, question, k=4):
     docs_with_scores = retrieve_docs_with_scores(vector_store, question, k=k)
 
     confidence = calculate_confidence(docs_with_scores)
