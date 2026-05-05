@@ -1,11 +1,17 @@
-
 # 🧠 RAG Insight Engine
 
-A production-style Retrieval-Augmented Generation application that allows users to upload PDF documents and ask questions using text or voice.
+A production-style Retrieval-Augmented Generation (RAG) application that allows users to upload PDF documents and ask questions using natural language or voice input.
+
+🔗 **Live App:**  
+https://rag-insight-engine-qxxt5cypf8jneqt9diu6ve.streamlit.app/
+
+---
 
 ## 🚀 Project Overview
 
-RAG Insight Engine is an AI-powered document intelligence system. It extracts text from uploaded PDF files, chunks the content, converts the chunks into vector embeddings, retrieves the most relevant context, and generates answers using Gemini.
+RAG Insight Engine is an AI-powered document intelligence system built to extract information from PDF documents and generate context-aware answers.
+
+The application follows a Retrieval-Augmented Generation workflow:
 
 ## ✨ Features
 
@@ -52,7 +58,7 @@ Similarity Search
       ↓
 Gemini Answer Generation
       ↓
-Streamlit UI Response```
+Streamlit UI Response ```
 
 ## ▶️ How to Run
 ```bash
